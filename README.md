@@ -62,4 +62,4 @@ BSD
 Author Information
 ------------------
 
-Ferran Basora <fcsonline@gmail.com>
+Denys Rastiegaiev <daaren@gmail.com>
