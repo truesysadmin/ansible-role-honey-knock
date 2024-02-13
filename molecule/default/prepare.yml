@@ -1,0 +1,15 @@
+---
+- name: Prepare
+  hosts: all
+  tasks:
+    # Make sure the default MySQL and SQLite
+    # schemas are installed in /usr/share/doc/
+    # - name: Pass options to dpkg on run
+    #   ansible.builtin.apt:
+    #     upgrade: dist
+    #     update_cache: true
+    #     dpkg_options: 'force-confold,force-confdef'
+
+    - name: Install requests python package
+      ansible.builtin.pip:
+        name: requests

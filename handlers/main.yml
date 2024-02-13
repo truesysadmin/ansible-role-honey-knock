@@ -1,0 +1,10 @@
+---
+- name: Start knockd
+  ansible.builtin.service:
+    name: knockd
+    state: started
+
+- name: Restart knockd
+  ansible.builtin.service:
+    name: knockd
+    state: restarted

@@ -1,0 +1,7 @@
+---
+- name: Get docker image
+  community.docker.docker_container:
+    name: sshoneypot
+    image: "fffaraz/fakessh"
+    ports:
+      - 2222:22

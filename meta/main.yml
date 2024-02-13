@@ -1,0 +1,28 @@
+---
+galaxy_info:
+  role_name: ansible-role-honey-knock
+  namespace: truesysadmin
+  author: Denys Rastiegaiev
+  description: Expose honeypot instead of real service unless you knocked right ports on your server
+  license: BSD
+  min_ansible_version: "2.12"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+        - mantic
+    - name: Debian
+      versions:
+        - bullseye
+        - bookworm
+        - trixie
+
+  galaxy_tags:
+    - networking
+    - system
+    - security
+    - knockd
+    - honeypot
+
+dependencies: []

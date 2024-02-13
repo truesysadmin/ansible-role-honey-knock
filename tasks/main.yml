@@ -1,0 +1,12 @@
+---
+- name: Install packages
+  ansible.builtin.import_tasks:
+    file: packages.yml
+
+- name: Install honeypot
+  ansible.builtin.import_tasks:
+    file: honeypot.yml
+
+- name: Install services
+  ansible.builtin.import_tasks:
+    file: services.yml
