@@ -1,6 +1,6 @@
 ---
 - name: Install requires packages
   ansible.builtin.apt:
-    name: [iptables-persistent, knockd]
+    name: [iptables-persistent, knockd, iproute2]
     state: present
     update_cache: true
